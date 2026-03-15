@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+body{
+    background-color:#F0F0DB ;
+}
+.header{
+    background-color: #40513B;
+    /*color: #E6501B;*/
+    color: #F0F0DB;
+}
+
+.create-task {
+    width: 40%;
+    margin: 10px auto;
+    color:#40513B;
+    border: 2px dotted #F2A65A;
+    border-radius: 4px;
+}
+.create-task input{
+    width: 95%;
+    border: 1px solid #F2A65A;
+    border-radius: 5px;
+}
+.create-task input:focus{
+    outline: none;
+}
+.create-task textarea{
+    width: 95%;
+    border: 1px solid #F2A65A;
+    border-radius: 5px;
+}
+.create-task textarea:focus{
+    outline: none;
+}
+.list{
+    width: 75%;
+    margin: 20px auto;
+    color:#40513B
+}
+.list .task-note{
+    border: 1px solid #F2A65A;
+    border-radius: 4px;
+}
+.task-note{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-note .buttons{
+    display: flex;
+    margin-top: auto;
+    justify-content: flex-end;
+    gap: 5px;
+}
